@@ -1,0 +1,108 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: purple;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.wrapper{
+    background-color: #fff;
+    padding: 40px; 
+    margin: 0 15px;
+    width: 800px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .7);
+    user-select: none;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 4px;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    color: green;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.content div{
+    width: 200px;
+    min-height: 140px;
+    border: 4px dashed green;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content div label{
+    width: 100%;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.content div label i{
+    font-size: 55px;
+    color: green;
+    margin-bottom: 20px;
+}
+
+.text{
+    font-size: 18px;
+    color: green;
+}
+
+.info{
+    font-size: 20px;
+    font-weight: 500;
+    color: green;
+    margin-bottom: 40px;
+}
+
+.btn{
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: medium;
+    border-radius: 10px;
+    border: 1px solid green;
+    background-color: green;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: green;
+}
+
